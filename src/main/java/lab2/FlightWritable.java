@@ -13,6 +13,8 @@ public class FlightWritable implements Writable {
     public String getName() {
         return name;
 
+    public Type getType() {
+
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(name);
         dataOutput.writeFloat(delay);
