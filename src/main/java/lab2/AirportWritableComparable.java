@@ -7,5 +7,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 enum Type{
+    FLIGHT
+public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(type.ordinal());
