@@ -11,6 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
 public class App {
+    private static final String usageString = "Usage: WordCountApp <input path> <input path> <output path>";
     private static final String jobName = "lab2";
 
     }
