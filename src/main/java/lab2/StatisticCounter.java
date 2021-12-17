@@ -7,3 +7,4 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 
 public class StatisticCounter extends Reducer<AirportWritableComparable, FlightWritable, IntWritable, Text> {
+    @Override
