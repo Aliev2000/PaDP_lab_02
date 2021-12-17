@@ -18,6 +18,8 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     public int getId(){
         return id;
 
+    public Type getType(){
+
     public String getName(){
         return name;
 
