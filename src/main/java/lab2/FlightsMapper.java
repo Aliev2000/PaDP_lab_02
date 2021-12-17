@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class FlightsMapper extends Mapper<LongWritable, Text, AirportWritableComparable, FlightWritable> {
 
+    @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         Flight data = new Flight(value.toString());
         if (!data.isCancelled()) {
