@@ -10,6 +10,8 @@ enum Type{
     FLIGHT
 }
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
+    public AirportWritableComparable(){
+
     public AirportWritableComparable(int id, String name, Type type){
         this.id = id;
         this.type = type;
