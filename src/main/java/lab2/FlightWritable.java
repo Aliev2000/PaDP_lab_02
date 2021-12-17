@@ -14,6 +14,8 @@ public class FlightWritable implements Writable {
     public String getName() {
         return name;
 
+    public float getDelay() {
+
     public Type getType() {
         return type;
 
