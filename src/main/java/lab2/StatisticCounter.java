@@ -8,3 +8,5 @@ import java.io.IOException;
 
 public class StatisticCounter extends Reducer<AirportWritableComparable, FlightWritable, IntWritable, Text> {
     @Override
+    protected void reduce(AirportWritableComparable key, Iterable<FlightWritable> values, Context context) throws IOException, InterruptedException {
+
