@@ -7,6 +7,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class FlightWritable implements Writable {
+    public String getName() {
+
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(name);
         dataOutput.writeFloat(delay);
