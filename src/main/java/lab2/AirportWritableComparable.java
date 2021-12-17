@@ -10,5 +10,7 @@ enum Type{
     FLIGHT
 }
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
+    public AirportWritableComparable(int id, String name, Type type){
+
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(type.ordinal());
