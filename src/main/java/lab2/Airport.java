@@ -1,6 +1,8 @@
 package lab2;
 
 public class Airport {
+    public Airport(String s){
+        this.name = data[1];
     }
 
     public int getId(){
