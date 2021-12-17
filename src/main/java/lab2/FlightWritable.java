@@ -7,3 +7,5 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class FlightWritable implements Writable {
+    public void write(DataOutput dataOutput) throws IOException {
+
