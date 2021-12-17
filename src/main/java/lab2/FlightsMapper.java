@@ -8,3 +8,5 @@ import java.io.IOException;
 
 public class FlightsMapper extends Mapper<LongWritable, Text, AirportWritableComparable, FlightWritable> {
 
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+}
