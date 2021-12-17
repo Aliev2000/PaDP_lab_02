@@ -1,6 +1,7 @@
 package lab2;
 
 public class Flight{
+    private static final int IS_CANCELLED_COLUMN = 19;
     private static final int DELAY_TIME_COLUMN = 18;
     private static final int AIRPORT_ID_COLUMN = 14;
 
