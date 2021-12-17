@@ -11,6 +11,8 @@ enum Type{
 }
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
     private Type type;
+    private int id;
+
     public AirportWritableComparable(){
 
     public AirportWritableComparable(int id, String name, Type type){
