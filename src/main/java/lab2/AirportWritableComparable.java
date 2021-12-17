@@ -15,6 +15,8 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
     public AirportWritableComparable(){
 
+    public String getName(){
+
     public AirportWritableComparable(int id, String name, Type type){
         this.id = id;
         this.type = type;
