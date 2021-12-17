@@ -8,6 +8,8 @@ public class Flight{
     private final float delayTime;
     private final int airportId;
 
+    public Flight (String s) {
+
     public boolean isCancelled() {
         return isCancelled;
 
