@@ -13,3 +13,5 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class App {
     private static final String jobName = "lab2";
 
+    }
+}
