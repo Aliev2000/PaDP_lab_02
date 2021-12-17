@@ -2,6 +2,7 @@ package lab2;
 
 public class Airport {
     public Airport(String s){
+        String[] data = s.split(DELIMITER);
         this.name = data[1];
     }
 
