@@ -15,3 +15,5 @@ public class StatisticCounter extends Reducer<AirportWritableComparable, FlightW
 
 
 
+    }
+}
