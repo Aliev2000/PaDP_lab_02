@@ -18,6 +18,9 @@ public class FlightWritable implements Writable {
         return type;
 
     public FlightWritable(String name, float delay, Type type){
+        this.name = name;
+        this.delay = delay;
+        this.type = type;
 
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(name);
