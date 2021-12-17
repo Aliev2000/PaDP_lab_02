@@ -26,4 +26,6 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(type.ordinal());
     public void readFields(DataInput dataInput) throws IOException {
+        this.id = dataInput.readInt();
+        this.type = Type.values()[dataInput.readInt()];
 }
