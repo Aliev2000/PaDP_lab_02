@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class FlightWritable implements Writable {
     public String getName() {
+        return name;
 
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(name);
