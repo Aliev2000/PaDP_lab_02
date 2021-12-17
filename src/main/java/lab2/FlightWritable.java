@@ -27,3 +27,5 @@ public class FlightWritable implements Writable {
         dataOutput.writeFloat(delay);
         dataOutput.writeInt(type.ordinal());
 
+    public void readFields(DataInput dataInput) throws IOException {
+}
