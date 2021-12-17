@@ -7,6 +7,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class FlightWritable implements Writable {
+    private Type type;
+
     public String getName() {
         return name;
 
