@@ -8,6 +8,7 @@ public class Flight{
     private static final String DELIMITER = ",";
     private static final String CANCELLED_FLAG = "1.00";
 
+    private final boolean isCancelled;
     private final float delayTime;
     private final int airportId;
 
