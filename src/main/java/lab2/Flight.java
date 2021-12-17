@@ -9,6 +9,10 @@ public class Flight{
     private final int airportId;
 
     public Flight (String s) {
+        String[] data = s.split(DELIMITER);
+        this.isCancelled = data[IS_CANCELLED_COLUMN].equals(CANCELLED_FLAG);
+        this.delayTime = (data[DELAY_TIME_COLUMN].equals("")) ? 0 : Float.parseFloat(data[DELAY_TIME_COLUMN]);
+        this.airportId = Integer.parseInt(data[AIRPORT_ID_COLUMN]);
 
     public boolean isCancelled() {
         return isCancelled;
