@@ -14,6 +14,7 @@ public class FlightWritable implements Writable {
         return name;
 
     public Type getType() {
+        return type;
 
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(name);
