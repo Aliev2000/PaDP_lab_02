@@ -7,3 +7,5 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 enum Type{
+    public void write(DataOutput dataOutput) throws IOException {
+        dataOutput.writeInt(type.ordinal());
