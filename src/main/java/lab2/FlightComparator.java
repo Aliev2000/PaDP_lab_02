@@ -7,6 +7,7 @@ public class FlightComparator extends WritableComparator {
     public FlightComparator(){
         super(AirportWritableComparable.class, true);
 
+    @Override
     public int compare(WritableComparable a, WritableComparable b) {
         int a_id = ((AirportWritableComparable)a).getId();
         int b_id = ((AirportWritableComparable)b).getId();
