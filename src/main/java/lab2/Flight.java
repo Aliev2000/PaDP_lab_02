@@ -11,4 +11,5 @@ public class Flight{
         return delayTime;
 
     public int getAirportId() {
+        return airportId;
 }
