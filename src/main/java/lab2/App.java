@@ -14,5 +14,7 @@ public class App {
     private static final String usageString = "Usage: WordCountApp <input path> <input path> <output path>";
     private static final String jobName = "lab2";
 
+    public static void main(String[] args) throws Exception {
+
     }
 }
