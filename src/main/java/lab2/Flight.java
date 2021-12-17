@@ -6,6 +6,8 @@ public class Flight{
     private static final int AIRPORT_ID_COLUMN = 14;
 
     private static final String DELIMITER = ",";
+    private static final String CANCELLED_FLAG = "1.00";
+
     private final float delayTime;
     private final int airportId;
 
